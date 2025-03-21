@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "points": 1500,
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "points": 2200,
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "points": 5000,
+      "role": "admin"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "title": "Completed Survey",
+      "description": "Filled out customer feedback survey",
+      "points": 50,
+      "userId": 1,
+      "timestamp": "2025-03-15T10:30:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "title": "Product Review",
+      "description": "Wrote a detailed product review",
+      "points": 100,
+      "userId": 2,
+      "timestamp": "2025-03-16T14:20:00Z",
+      "status": "completed"
+    },
+    {
+      "id": "3",
+      "title": "Referral Bonus",
+      "description": "Referred a new customer",
+      "points": 250,
+      "userId": 1,
+      "timestamp": "2025-03-17T09:45:00Z",
+      "status": "completed"
+    }
+  ],
+  "rewards": [
+    {
+      "id": "1",
+      "title": "$10 Gift Card",
+      "description": "Digital gift card for popular online retailers",
+      "pointCost": 1000,
+      "imageUrl": "https://via.placeholder.com/150",
+      "available": true
+    },
+    {
+      "id": "2",
+      "title": "Premium Subscription (1 Month)",
+      "description": "One month of premium subscription services",
+      "pointCost": 2000,
+      "imageUrl": "https://via.placeholder.com/150",
+      "available": true
+    },
+    {
+      "id": "3",
+      "title": "Company Swag Box",
+      "description": "Box filled with company branded merchandise",
+      "pointCost": 3000,
+      "imageUrl": "https://via.placeholder.com/150",
+      "available": true
+    }
+  ],
+  "redemptions": [
+    {
+      "id": "1",
+      "userId": 2,
+      "rewardId": 1,
+      "timestamp": "2025-03-15T16:30:00Z",
+      "status": "approved"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "rewardId": 2,
+      "timestamp": "2025-03-16T11:45:00Z",
+      "status": "pending"
+    },
+    {
+      "id": "7641",
+      "userId": "1",
+      "rewardId": "1",
+      "timestamp": "2025-03-20T18:23:59.934Z",
+      "status": "pending"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+/* Additional styles beyond Bootstrap */
+.rewards-card {
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.rewards-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-item {
+  border-left: 4px solid #007bff;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.leaderboard-rank {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #495057;
+  width: 40px;
+  text-align: center;
+}
+
+.dashboard-stat-card {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.dashboard-stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.points-badge {
+  background-color: #28a745;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.redemption-pending {
+  background-color: #ffc107;
+}
+
+.redemption-approved {
+  background-color: #28a745;
+}
+
+.redemption-shipped {
+  background-color: #17a2b8;
+}
+
+.redemption-denied {
+  background-color: #dc3545;
+}
