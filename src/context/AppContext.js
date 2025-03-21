@@ -63,7 +63,7 @@ function appReducer(state, action) {
 export function AppProvider({ children }) {
   const [state, dispatch] = useReducer(appReducer, initialState);
 
-  const API_URL = 'http://localhost:3001';
+  const API_URL = 'https://my-json-server.typicode.com/piyusht0108/rewards-dashboard';
 
   // Actions
   const fetchData = async (dataType) => {
